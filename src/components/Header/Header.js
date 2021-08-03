@@ -12,6 +12,7 @@ class Header extends React.Component {
             
             <div className = "header">
 
+                {/*Header line one */}
                 <div className = "header-line-one">
                     {/*Should be an individual component */}
                     <div className = "header-hamburger header-element-margin">
@@ -44,12 +45,19 @@ class Header extends React.Component {
                     </div>
                 </div>
 
+                {/* Header line two */}
                 <div className = "header-line-two">
-                    <div className = "header-best-sellers"></div>
+                    <div className = "header-best-sellers">
+                        <a href = "#" className = "line-two-link">Best Sellers</a>
+                    </div>
 
-                    <div className = "header-new-releases"></div>
+                    <div className = "header-new-releases">
+                        <a href = "#" className = "line-two-link">New releases</a>
+                    </div>
 
-                    <div className = "header-customer-service"></div>
+                    <div className = "header-customer-service">
+                        <a href = "#" className = "line-two-link">Customer Service</a>
+                    </div>
                 </div>
             </div>
 
