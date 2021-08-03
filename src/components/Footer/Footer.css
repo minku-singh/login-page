@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;   
+    background-color: magenta;
+    margin-top: 95vh;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin: 0 2vw 0 2vw;
+    padding: 1vh;
+    font-size: small;
+}
