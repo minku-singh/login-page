@@ -1,17 +1,14 @@
 import React from 'react';
 import './Cart.css';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
-class Cart extends Cart.component {
+class Cart extends React.Component {
     render() {
         return(
             <div className = "container">
-                <div className = "header"></div>
-
-                <div className = "buy"></div>
-
-                <div className = "product"></div>
-
-                <div className = "footer"></div>
+               <Header />
+               <Footer />
             </div>
         );
     }
