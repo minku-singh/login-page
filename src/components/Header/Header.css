@@ -50,3 +50,15 @@
 .header-search-icon {
     text-align: center;
 }
+
+/*Line Two*/
+.header-line-two {
+    background-color: rgb(255, 140, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5vh;
+}
+
+.line-two-link {
+    text-decoration: none;
+}
